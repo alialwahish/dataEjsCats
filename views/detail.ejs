@@ -1,0 +1,20 @@
+<html>
+<body>
+    <h2>Cat Details</h2>
+    <img src="/images/<%=cat[4].link%>" alt=<%=cat[4].link%> height="100" width="100" >
+        <p>Name: <%=cat[0].name%></p>
+        <p>Favorite Food: <%=cat[1].favFod%></p>
+        <p>Age: <%=cat[2].age%></p>
+        <p>Sleeping Spots:</p>
+        <%for (var i of cat[3].sleepingSpots) {%>
+             <p><%=i%></p>
+        <%}%>
+
+    
+    <br>
+<a href="/">Home</a>
+
+
+
+</body>
+</html>
